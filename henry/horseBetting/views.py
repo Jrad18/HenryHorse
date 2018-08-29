@@ -4,4 +4,10 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Gday Mate")
+    output = 'test- index'
+    return HttpResponse(output)
+
+def add(request):
+    output = 'test- add'
+    return HttpResponse(output)
+
