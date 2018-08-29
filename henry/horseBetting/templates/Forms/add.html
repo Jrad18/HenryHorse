@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{ 'Form input example' }}</h1>
+
+
+    <form action="{% url 'New Form' Form.id %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="formData" id="formData" value="{{formData}}"/>
+        <label for="formData">Enter JSON</label>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

@@ -21,4 +21,6 @@ class Tracks(models.Model):
 class Forms(models.Model):
     date = models.DateTimeField('date')
     form_data = JSONField()
+    def datadump(self):
+        return json.dumps(self.form_data, sort_keys=True, indent=4)
 
