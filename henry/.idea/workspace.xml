@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1e9c5183-562f-4aac-9db3-5d41e571b7b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/henry/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/henry/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/horseBetting/Templates/Forms/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/horseBetting/templates/Forms/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/horseBetting/Templates/Forms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/horseBetting/templates/Forms/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/horseBetting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/horseBetting/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/henry/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/henry/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/horseBetting/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/horseBetting/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/horseBetting/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/horseBetting/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,32 +46,36 @@
     <session id="-863859822">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="711" />
-          <entry key="py" value="1139" />
+          <entry key="py" value="5996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="711" />
-          <entry key="Python" value="1139" />
+          <entry key="Python" value="5996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="py" value="6" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -83,14 +83,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/horseBetting/views.py">
+        <entry file="file://$PROJECT_DIR$/horseBetting/scraping/raceScrape.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="311">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1535530798046" expanded="true" signature="489:722" ph="..." />
-                <marker date="1535530798046" expanded="true" signature="753:758" ph="..." />
+                <element signature="e#0#34#0" expanded="true" />
+                <marker date="1546065728181" expanded="true" signature="175:489" ph="..." />
+                <marker date="1546065728181" expanded="true" signature="503:743" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,66 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/henry/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/horseBetting/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1535527891051" expanded="true" signature="128:133" ph="..." />
-                <marker date="1535527891051" expanded="true" signature="250:255" ph="..." />
-                <marker date="1535527891051" expanded="true" signature="371:376" ph="..." />
-                <marker date="1535527891051" expanded="true" signature="491:496" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/horseBetting/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/horseBetting/templates/Forms/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/horseBetting/templates/Forms/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/horseBetting/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -168,8 +110,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -180,22 +122,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/henry/__init__.py" />
-        <option value="$PROJECT_DIR$/henry/settings.py" />
         <option value="$PROJECT_DIR$/horseBetting/admin.py" />
         <option value="$PROJECT_DIR$/horseBetting/Templates/Forms/index.html" />
         <option value="$PROJECT_DIR$/horseBetting/Templates/Forms/add.html" />
         <option value="$PROJECT_DIR$/horseBetting/models.py" />
         <option value="$PROJECT_DIR$/horseBetting/templates/Forms/index.html" />
-        <option value="$PROJECT_DIR$/henry/urls.py" />
         <option value="$PROJECT_DIR$/horseBetting/templates/Forms/add.html" />
-        <option value="$PROJECT_DIR$/horseBetting/urls.py" />
         <option value="$PROJECT_DIR$/horseBetting/views.py" />
+        <option value="$PROJECT_DIR$/horseBetting/urls.py" />
+        <option value="$PROJECT_DIR$/henry/urls.py" />
+        <option value="$PROJECT_DIR$/horseBetting/raceScrape.py" />
+        <option value="$PROJECT_DIR$/henry/settings.py" />
+        <option value="$PROJECT_DIR$/horseBetting/scraping/raceScrape.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
+    <option name="x" value="727" />
+    <option name="width" value="646" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -252,8 +196,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="urlconf&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../apitutorial/apitute" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\henryProject\HenryHorse\henry\horseBetting\scraping" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,7 +234,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16815476" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.44461304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,21 +252,34 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44461304" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/horseBetting/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -334,12 +297,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/henry/settings.py">
+    <entry file="file://$PROJECT_DIR$/horseBetting/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="408">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1535527891051" expanded="true" signature="128:133" ph="..." />
+            <marker date="1535527891051" expanded="true" signature="250:255" ph="..." />
+            <marker date="1535527891051" expanded="true" signature="371:376" ph="..." />
+            <marker date="1535527891051" expanded="true" signature="491:496" ph="..." />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henry/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horseBetting/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+            <marker date="1535531149417" expanded="true" signature="501:734" ph="..." />
+            <marker date="1535531149417" expanded="true" signature="765:770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henry/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#221#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horseBetting/templates/Forms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horseBetting/templates/Forms/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horseBetting/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horseBetting/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/horseBetting/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -351,62 +380,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/horseBetting/templates/Forms/index.html">
+    <entry file="file://$PROJECT_DIR$/henry/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/henry/urls.py">
+    <entry file="file://$PROJECT_DIR$/horseBetting/scraping/raceScrape.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="311">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding>
-            <element signature="e#629#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/horseBetting/templates/Forms/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/horseBetting/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/horseBetting/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1535527891051" expanded="true" signature="128:133" ph="..." />
-            <marker date="1535527891051" expanded="true" signature="250:255" ph="..." />
-            <marker date="1535527891051" expanded="true" signature="371:376" ph="..." />
-            <marker date="1535527891051" expanded="true" signature="491:496" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/horseBetting/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1535530798046" expanded="true" signature="489:722" ph="..." />
-            <marker date="1535530798046" expanded="true" signature="753:758" ph="..." />
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1546065728181" expanded="true" signature="175:489" ph="..." />
+            <marker date="1546065728181" expanded="true" signature="503:743" ph="..." />
           </folding>
         </state>
       </provider>
