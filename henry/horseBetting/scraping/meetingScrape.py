@@ -6,15 +6,16 @@ import re
 
 #define meeting and race class
 class Race:
-    def __init__(self, num, detail, length, time, link):
+    def __init__(self, num, detail, length, time, link, track):
         self.num = num
         self.detail = detail
         self.length = length
         self.time = time
         self.link = link
+        self.track = track
 
     def printRace(self):
-        print(self.num + ': ' + self.detail + '\n' + self.length + '\ntime: ' + self.time + '\n' + self.link + '\n')
+        print(self.num + ': ' + self.detail + '\n' + self.length + '\ntime: ' + self.time + '\n')
 
 class Meeting:
     def __init__(self, track, races):
@@ -25,6 +26,9 @@ class Meeting:
         print(self.track + ': \n')
         for x in range(0, len(self.races)):
             self.races[x].printRace()
+
+    def printMeetingTitle(self):
+        print(self.track)
 
 def scrapeMeeting(day):
     #returns all the meetings for a particular day (1 = today, 2 = tomorrow ... n = future)
@@ -67,7 +71,7 @@ def scrapeMeeting(day):
 
         races = []
         for y in range(0, len(raceNumberList)):
-            race = Race(raceNumberList[y].text.strip(), raceDetailList[y].text.strip(), raceLengthList[y].text.strip(), raceTimeList[y].text.strip(), raceLink[y])
+            race = Race(raceNumberList[y].text.strip(), raceDetailList[y].text.strip(), raceLengthList[y].text.strip(), raceTimeList[y].text.strip(), raceLink[y], title.text.strip())
             races.append(race)
         meetings.append(Meeting(title.text.strip(), races))
 
@@ -75,4 +79,4 @@ def scrapeMeeting(day):
 
 def listMeetings(meetings):
     for x in range(0, len(meetings)):
-        print(meetings[x].track + '/n')
+        print(meetings[x].track + '\n')

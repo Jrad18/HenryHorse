@@ -1,16 +1,17 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+from meetingScrape import *
 import json
 import re
 
 
 
-def raceScrape(link):
+def raceScrape(race):
 
     # link suffix will be /trackname-date(yyyymmdd)/name-of-race(eg. canadian-club-qtis-two-years-old-maiden-race-1 <--- from initial scrape)
     apiPrefixRace = 'https://api.racenet.com.au/api/v2/horse/formguide/field/'
 
-    page = urlopen(apiPrefixRace + link)
+    page = urlopen(apiPrefixRace + race.link)
     soup = BeautifulSoup(page, 'html.parser')
     jsonSoup = json.loads(soup.text.strip())['data'][0]
 
@@ -30,6 +31,15 @@ def raceScrape(link):
     returnData['startTimeLocal'] = jsonSoup['startTimeLocal']
     returnData['startTimeUtc'] = jsonSoup['startTimeUtc']
     returnData['antiClockwise'] = jsonSoup['track']['antiClockwise']
+    returnData['ageRestrict'] = jsonSoup['entryConditions'][0]['longCondition']
+    returnData['classRestrict'] = jsonSoup['entryConditions'][2]['longCondition']
+    returnData['sexRestrict'] = jsonSoup['entryConditions'][3]['longCondition']
+    returnData['weightRestrict'] = jsonSoup['entryConditions'][4]['longCondition']
+
+    returnData['trackName'] = race.track
+
+    region = re.search('\((.*?)\)', race.track).group(0)
+    returnData['trackRegion'] = region[1:len(region)-1]
 
     return returnData
 
